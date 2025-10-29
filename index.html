@@ -79,5 +79,177 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="help.html">Help & Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>We are a team dedicated to creating beautiful, functional websites.</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Contact Us</h1></header>
+  <main>
+    <form>
+      <label>Name:</label>
+      <input type="text" required>
+      <label>Email:</label>
+      <input type="email" required>
+      <label>Message:</label>
+      <textarea rows="5"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login / Sign Up | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="auth-container">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <h3>Or Sign Up</h3>
+    <form>
+      <input type="text" placeholder="New Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Your Profile</h1></header>
+  <main>
+    <p>Welcome, [User Name]</p>
+    <p>Email: user@example.com</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Settings</h1></header>
+  <main>
+    <form>
+      <label>Change Password:</label>
+      <input type="password" placeholder="New Password">
+      <button type="submit">Update</button>
+    </form>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help & Support | My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Help & Support</h1></header>
+  <main>
+    <p>Need help? Contact us at support@mywebsite.com.</p>
+  </main>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover, .active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
 
 
